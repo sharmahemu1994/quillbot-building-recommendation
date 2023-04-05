@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "declaration": true,
+    "baseUrl": "src",
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "require": [
+    "dotenv/config"
+  ]
+}
